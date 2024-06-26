@@ -2,4 +2,4 @@
 simple docs &amp; code, learning solidity on strat2impact (blockchain master)
 
 
-configuration:
+configuration: 1
