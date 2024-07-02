@@ -3,19 +3,12 @@ pragma solidity ^0.8.0;
 
 contract Counter {
     // create a variable
-    uint count; // 1, 2, 3
-
-    constructor() public {
-        count = 0;
-    }
-
-    //read function
-    function getCount() public view returns(uint) {
-        return count;
-    }
+    // setting it public will create a funcion like the previous getCount()
+    // setting in at 0 without the contructor()
+    uint public count = 0; // 1, 2, 3
 
     //write function    
     function incrementCount() public {
-        count = count + 1;
+        count++;
     }
 }
