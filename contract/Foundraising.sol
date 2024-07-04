@@ -9,10 +9,9 @@ contract Foundraising {
     uint public balance = 0;
     uint public goal = 5000;
     uint public donor_count = 0;
-    bool public foundraising_open = true;
 
     function donate() public payable { 
-        require(foundraising_open, "La raccolta fondi e' stata chiusa.");
+        require(foundraising_open() , "La raccolta fondi e' conclusa.");
         require(msg.value > 0, "L'importo donato deve essere positivo.");
         // add value donated to balance 
         balance += msg.value;
@@ -28,11 +27,13 @@ contract Foundraising {
         balance -= _amount;
     }
 
-    function close_foundraising() public {
-        require(foundraising_open, "La raccolta fondi e' gia' chiusa.");
-        require(msg.sender == owner, "Solo il proprietario puo' chiudere la raccolta fondi.");
-        // this variable will be checked in the function donate()
-        foundraising_open = false;
+    function foundraising_open() public view returns (bool) {
+        // called at the beginning of donate()
+        if (balance < goal){
+            return true;
+        } else {
+            return false;
+        }
     }
 
     function check_goal() public view returns (string memory) {
