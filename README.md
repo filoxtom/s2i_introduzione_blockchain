@@ -1,10 +1,11 @@
-# strat2impact - Blockchain Developer Master
+# strat2impact Blockchain Developer Master - pt.1 Blockchain Introduction
 
-pt.1 Blockchain Introduction
+This repository contains basic solidity programs explained in the first chapter of the blockchain master.
 
-This repository contains basic solidity program explained in the first chapter of the blockchain master.
+The final project is "Foundraising.sol"
 
-## All theory link:
+
+## Theory link:
 
 wallet
 https://www.youtube.com/watch?v=FHr3tRcHroI&embeds_referring_euri=https%3A%2F%2Ftalent.start2impact.it%2F&source_ve_path=Mjg2NjY
