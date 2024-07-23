@@ -27,7 +27,8 @@ contract MyContract {
         uint256 my_uint256_1;
         string my_string_1;
     }
-    
+
     // setting a variable based on the structure 
     myStruct public my_struct = myStruct(1, "Hello, World!");
 }
+
