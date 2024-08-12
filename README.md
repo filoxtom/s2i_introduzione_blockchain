@@ -1,4 +1,4 @@
-# strat2impact Blockchain Developer Master - pt.1 Blockchain Introduction
+# strat2impact: Blockchain Developer Master - pt.1 Blockchain Introduction
 
 This repository contains basic solidity programs explained in the first chapter of the blockchain master.
 
@@ -20,4 +20,4 @@ cryptozombies
 https://cryptozombies.io/it/lesson/1/chapter/1
 
 
-Link to my s2i profile: 
+Link to my s2i profile: https://talent.start2impact.it/profile/filippo-ettore-tomatis-45f30c16-e41e-41ea-be8a-75a031b317b8
