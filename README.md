@@ -2,7 +2,7 @@
 
 This repository contains basic solidity programs explained in the first chapter of the blockchain master.
 
-The final project is "Foundraising.sol"
+The final project is "Fundraising.sol"
 
 
 ## Theory link:
